@@ -21,5 +21,11 @@ class StringHelperTest {
 		
 		assertEquals("CD",sh.removeAatFirstTwoChars("AACD"));
 	}
+	
+	@Test
+	void testIfAisPresentAtSecondChar() {
+		
+		assertEquals("BCD",sh.removeAatFirstTwoChars("BACD"));
+	}
 
 }
