@@ -27,5 +27,11 @@ class StringHelperTest {
 		
 		assertEquals("BCD",sh.removeAatFirstTwoChars("BACD"));
 	}
+	
+	@Test
+	void testIfAisPresentAtThirdAndFourthChar() {
+		
+		assertEquals("BBAA",sh.removeAatFirstTwoChars("BBAA"));
+	}
 
 }
