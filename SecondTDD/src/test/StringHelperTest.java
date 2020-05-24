@@ -33,5 +33,11 @@ class StringHelperTest {
 		
 		assertEquals("BBAA",sh.removeAatFirstTwoChars("BBAA"));
 	}
+	
+	@Test
+	void testIfAisPresentAtFirstTwoAndLastTwoChar() {
+		
+		assertEquals("BAA",sh.removeAatFirstTwoChars("AABAA"));
+	}
 
 }
